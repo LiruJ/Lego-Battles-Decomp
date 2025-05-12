@@ -12,8 +12,6 @@
 
 #include "Team/TeamManager.hpp"
 
-#include "global.h"
-
 const u8 EVENT_ID_START_TIMER_ELAPSED       = 0x84;
 const u8 EVENT_ID_BARRACKS_DESTROYED        = 0x85;
 const u8 EVENT_ID_CRIMINAL_LEADER_RETRIEVED = 0x86;
@@ -25,11 +23,11 @@ const u32 LANGUAGE_ID_GET_CRIMINAL_LEADER_BASE = 0xa7a;
 
 // Alien mission "Criminal Minds".
 
-THUMB void Mission01::OnEvent(CampaignMissionBase *mission, s32 eventId) {
+void Mission01::OnEvent(CampaignMissionBase *mission, s32 eventId) {
     OnMissionEvent(mission, eventId);
 }
 
-THUMB void Mission01::OnMissionEvent(CampaignMissionBase *mission, s32 eventId) {
+void Mission01::OnMissionEvent(CampaignMissionBase *mission, s32 eventId) {
     MissionObjectives *objectives = &missionObjectives;
     ObjectiveBase *objective;
 

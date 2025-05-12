@@ -1,6 +1,7 @@
 #ifndef TIMER_H
 #define TIMER_H
 
+#include "global.h"
 #include "types.h"
 
 namespace Battles {
@@ -18,12 +19,12 @@ namespace Battles {
                 virtual ~TimeNode() {};
             };
 
-            void AddNewTimeNode(u8 eventId, u32 timeInFrames, u32 unk1, s8 unk2, u32 unk3);
+            THUMB void AddNewTimeNode(u8 eventId, u32 timeInFrames, u32 unk1, s8 unk2, u32 unk3);
 
             virtual ~Timer() {}
 
         private:
-            void AddTimeNode(TimeNode *timeNode);
+            THUMB void AddTimeNode(TimeNode *timeNode);
         } CurrentTimer;
     } // namespace ScriptingMacros
 } // namespace Battles

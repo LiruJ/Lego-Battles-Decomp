@@ -26,10 +26,10 @@ GAME = "lb"
 DSD_VERSION = 'v0.6.0'
 WIBO_VERSION = '0.6.16'
 OBJDIFF_VERSION = 'v2.7.1'
-MWCC_VERSION = "1.2/sp4"
+MWCC_VERSION = "2.0/sp2p4"
 DECOMP_ME_COMPILER = "mwcc_30_114"
 CC_FLAGS = " ".join([
-    "-O4,p",                # Optimize maximally for performance
+    "-O2,p",                # Optimize maximally for performance
     "-enum int",            # Use int-sized enums
     "-char signed",         # Char type is signed
     "-str noreuse",         # Equivalent strings are different objects
