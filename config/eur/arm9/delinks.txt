@@ -1,0 +1,26 @@
+    .text       start:0x02000000 end:0x021223e0 kind:code align:32
+    .init       start:0x021223e0 end:0x02125fc4 kind:code align:4
+    .rodata     start:0x02125fc4 end:0x0213a5a4 kind:rodata align:4
+    .ctor       start:0x0213a5a4 end:0x0213aa00 kind:rodata align:4
+    .data       start:0x0213aa00 end:0x02150880 kind:data align:32
+    .bss        start:0x02150880 end:0x0216a2e0 kind:bss align:32
+
+src/Main/Team/TeamManager.cpp:
+    .text       start:0x02049b70 end:0x02049c44
+
+
+src/Battles/ScriptingMacros/Timer.cpp:
+    .data       start:0x0214866c end:0x021486a8
+    .text       start:0x0204a3a8 end:0x0204a7a0
+
+src/Battles/Maths/Vector2u8.cpp:
+    .data       start:0x0214fde4 end:0x0214fe14
+    .text       start:0x020f2ba0 end:0x020f2bf4
+
+src/Battles/Maths/Vector2s16.cpp:
+    .data       start:0x0214fd54 end:0x0214fd84
+    .text       start:0x020f2a50 end:0x020f2a68
+
+src/Main/MissionData/MissionObjectives.cpp:
+    .data       start:0x02148618 end:0x02148630
+    .text       start:0x02049cb8 end:0x02049f50

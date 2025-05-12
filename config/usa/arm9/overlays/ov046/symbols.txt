@@ -1,0 +1,6 @@
+func_ov046_0216a2e0 kind:function(thumb,size=0x8) addr:0x0216a2e0
+func_ov046_0216a2e8 kind:function(thumb,size=0xac) addr:0x0216a2e8
+func_ov046_0216a394 kind:function(thumb,size=0x10) addr:0x0216a394
+func_ov046_0216a3a4 kind:function(thumb,size=0x20) addr:0x0216a3a4
+data_ov046_0216a3e0 kind:bss addr:0x0216a3e0
+data_ov046_0216a3e8 kind:bss addr:0x0216a3e8
