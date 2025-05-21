@@ -8,7 +8,7 @@ stuck or need assistance.
 - [The Ghidra project](#the-ghidra-project)
 
 ## Pick a source file
-See the `decomp` tag in the [issue tracker](https://github.com/zeldaret/ph/issues?q=is%3Aopen+is%3Aissue+label%3Adecomp) for
+See the `decomp` tag in the [issue tracker](https://github.com/LiruJ/Lego-Battles-Decomp/issues?q=is%3Aopen+is%3Aissue+label%3Adecomp) for
 a list of delinked source files that are ready to be decompiled. This list grows as more source files are delinked from the
 rest of the base ROM.
 
