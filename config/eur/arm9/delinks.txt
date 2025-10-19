@@ -8,6 +8,8 @@
 src/Main/Team/TeamManager.cpp:
     .text       start:0x02049b70 end:0x02049c44
 
+src/Main/Memory/Memory.cpp:
+    .text       start:0x0204c6e4 end:0x0204c774
 
 src/Battles/ScriptingMacros/Timer.cpp:
     .data       start:0x0214866c end:0x021486a8
@@ -28,3 +30,8 @@ src/Main/MissionData/MissionObjectives.cpp:
 src/Battles/Map/Map.cpp:
     .data       start:0x0214ba30 end:0x0214ba68
     .text       start:0x020a369c end:0x020a58c0
+
+src/Battles/Save/SaveHasher.cpp:
+    .bss        start:0x0215867c end:0x02158680
+    .data       start:0x0216bc68 end:0x0216c068
+    .text       start:0x020ef590 end:0x020ef774
